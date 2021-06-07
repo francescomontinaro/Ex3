@@ -1,0 +1,37 @@
+PLINK v1.90b6.22 64-bit (16 Apr 2021)
+Options in effect:
+  --bfile GreSalVL_b37_AllelesUpdatedNewMapBEDAutoGeno05Mind05ControlsHWERelativeRemovedLD
+  --flip GreSalAndModern-merge.missnp
+  --make-bed
+  --out GreSalVL_b37_AllelesUpdatedNewMapBEDAutoGeno05Mind05ControlsHWERelativeRemovedLDFlipped
+
+Hostname: francesco-latitudee6540
+Working directory: /home/francesco/Dropbox/Corsi/Antropologia_Molecolare_e_genetica_delle_dipendenze/MolAnthEsercitazioni/Ex2
+Start time: Mon Jun  7 13:07:33 2021
+
+Random number seed: 1623064053
+15915 MB RAM detected; reserving 7957 MB for main workspace.
+125459 variants loaded from .bim file.
+61 people (0 males, 0 females, 61 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+GreSalVL_b37_AllelesUpdatedNewMapBEDAutoGeno05Mind05ControlsHWERelativeRemovedLDFlipped.nosex
+.
+61 phenotype values loaded from .fam.
+--flip: 26506 SNPs flipped.
+Warning: Ignoring phenotypes of missing-sex samples.  If you don't want those
+phenotypes to be ignored, use the --allow-no-sex flag.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 61 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.998761.
+125459 variants and 61 people pass filters and QC.
+Among remaining phenotypes, 0 are cases and 61 are controls.
+--make-bed to
+GreSalVL_b37_AllelesUpdatedNewMapBEDAutoGeno05Mind05ControlsHWERelativeRemovedLDFlipped.bed
++
+GreSalVL_b37_AllelesUpdatedNewMapBEDAutoGeno05Mind05ControlsHWERelativeRemovedLDFlipped.bim
++
+GreSalVL_b37_AllelesUpdatedNewMapBEDAutoGeno05Mind05ControlsHWERelativeRemovedLDFlipped.fam
+... done.
+
+End time: Mon Jun  7 13:07:34 2021

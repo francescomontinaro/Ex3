@@ -1,0 +1,32 @@
+PLINK v1.90b6.22 64-bit (16 Apr 2021)
+Options in effect:
+  --bfile GreSalAndModernEurasia10kSnps
+  --extract ancient2merge_cleaned_nopug10KSnpsNoMissing.bim
+  --make-bed
+  --out GreSalAndModernEurasia10kSnpsNoMissing
+
+Hostname: francesco-latitudee6540
+Working directory: /home/francesco/Dropbox/Corsi/Antropologia_Molecolare_e_genetica_delle_dipendenze/MolAnthEsercitazioni/Ex2
+Start time: Mon Jun  7 14:04:41 2021
+
+Random number seed: 1623067481
+15915 MB RAM detected; reserving 7957 MB for main workspace.
+10000 variants loaded from .bim file.
+1075 people (654 males, 300 females, 121 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to GreSalAndModernEurasia10kSnpsNoMissing.nosex .
+320 phenotype values loaded from .fam.
+--extract: 9988 variants remaining.
+Warning: Ignoring phenotypes of missing-sex samples.  If you don't want those
+phenotypes to be ignored, use the --allow-no-sex flag.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 1075 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.973468.
+9988 variants and 1075 people pass filters and QC.
+Among remaining phenotypes, 0 are cases and 320 are controls.  (755 phenotypes
+are missing.)
+--make-bed to GreSalAndModernEurasia10kSnpsNoMissing.bed +
+GreSalAndModernEurasia10kSnpsNoMissing.bim +
+GreSalAndModernEurasia10kSnpsNoMissing.fam ... done.
+
+End time: Mon Jun  7 14:04:41 2021
