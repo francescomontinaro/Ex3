@@ -1,33 +1,33 @@
-PLINK v1.90b6.22 64-bit (16 Apr 2021)
+PLINK v1.90b6.21 64-bit (19 Oct 2020)
 Options in effect:
   --bfile GreSalAndModernEurasia
-  --extract modern2merge_cleaned_nopug.bim
+  --keep /proc/self/fd/11
   --make-bed
   --out GreSalAndModernEurasia
 
 Hostname: francesco-latitudee6540
-Working directory: /home/francesco/Dropbox/Corsi/Antropologia_Molecolare_e_genetica_delle_dipendenze/MolAnthEsercitazioni/Ex2
-Start time: Mon Jun  7 13:07:39 2021
+Working directory: /home/francesco/Dropbox/Corsi/Antropologia_Molecolare_e_genetica_delle_dipendenze/MolAnthEsercitazioni/Ex3
+Start time: Thu Jun 10 11:53:11 2021
 
-Random number seed: 1623064059
+Random number seed: 1623318791
 15915 MB RAM detected; reserving 7957 MB for main workspace.
 Warning: --make-bed input and output filenames match.  Appending '~' to input
 filenames.
-166368 variants loaded from .bim file.
+93644 variants loaded from .bim file.
 1075 people (654 males, 300 females, 121 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to GreSalAndModernEurasia.nosex .
 320 phenotype values loaded from .fam.
---extract: 93647 variants remaining.
+--keep: 1043 people remaining.
 Warning: Ignoring phenotypes of missing-sex samples.  If you don't want those
 phenotypes to be ignored, use the --allow-no-sex flag.
 Using 1 thread (no multithreaded calculations invoked).
-Before main variant filters, 1075 founders and 0 nonfounders present.
+Before main variant filters, 1043 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.974173.
-93647 variants and 1075 people pass filters and QC.
-Among remaining phenotypes, 0 are cases and 320 are controls.  (755 phenotypes
+Total genotyping rate in remaining samples is 0.973523.
+93644 variants and 1043 people pass filters and QC.
+Among remaining phenotypes, 0 are cases and 320 are controls.  (723 phenotypes
 are missing.)
 --make-bed to GreSalAndModernEurasia.bed + GreSalAndModernEurasia.bim +
 GreSalAndModernEurasia.fam ... done.
 
-End time: Mon Jun  7 13:07:40 2021
+End time: Thu Jun 10 11:53:11 2021
